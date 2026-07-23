@@ -1,0 +1,5 @@
+num_users: 3351
+num_items: 5907
+num_train_interactions: 86199
+num_test_interactions: 23211
+sparsity: 0.004354725945379281

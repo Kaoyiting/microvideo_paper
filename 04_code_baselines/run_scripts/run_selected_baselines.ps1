@@ -1,0 +1,14 @@
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+# Run from the repository root:
+# powershell -ExecutionPolicy Bypass -File thesis_artifacts\04_code_baselines\run_scripts\run_selected_baselines.ps1
+
+python content\shortvideo_experiment\baseline_pop_shortvideo.py
+python content\shortvideo_experiment\baseline_bprmf_shortvideo.py
+python content\shortvideo_experiment\baseline_lightgcn_shortvideo.py
+python content\shortvideo_experiment\baseline_sasrec_shortvideo.py
+python content\shortvideo_experiment\baseline_gru4rec_shortvideo.py
+python content\shortvideo_experiment\baseline_imagebind_shortvideo.py
+python content\shortvideo_experiment\baseline_mmgcn_shortvideo_v3.py
+python content\shortvideo_experiment\baseline_dualgnn_shortvideo.py
