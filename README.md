@@ -4,8 +4,6 @@
 
 ## 主要用途
 
-- 複製到隨身碟，一式三份。
-- 上傳 GitHub 可公開的資料與程式。
 - 說明資料內容、程式位置、結果檔案與安裝環境。
 
 ## 資料夾內容
@@ -18,12 +16,6 @@
 04_code_baselines/            各 baseline 程式
 05_results_excel/             實驗中間與最後結果
 06_checkpoints_selected/      可重現主要分數的小型 checkpoint
-07_docs/                      論文與投影片檔案
-08_editable_figures_tables/   Word 不能直接修改時才放圖表原始檔
-09_ieee_format/               IEEE 格式論文檔案
-10_elsevier_format/           Elsevier 格式論文檔案
-11_github_links/              GitHub 連結
-12_personal_photo/            個人照片
 ```
 
 ## 程式位置
