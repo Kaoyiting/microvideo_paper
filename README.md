@@ -1,6 +1,7 @@
-# 論文交付資料包
+# 論文
 
-這個資料夾整理論文實驗交付需要的資料、程式、結果與說明。
+整理論文實驗需要的資料、程式、結果與說明。
+<img width="1847" height="896" alt="論文架構" src="https://github.com/user-attachments/assets/bf84d19f-2d16-494f-b3db-3d3e6208acd6" />
 
 ## 主要用途
 
