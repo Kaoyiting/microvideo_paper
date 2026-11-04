@@ -1,7 +1,12 @@
 # 論文
 
 整理論文實驗需要的資料、程式、結果與說明。
+論文架構如下
 <img width="1847" height="896" alt="論文架構" src="https://github.com/user-attachments/assets/bf84d19f-2d16-494f-b3db-3d3e6208acd6" />
+本研究提出一個整合多模態內容與序列化互動的推薦框架，於單一體系下同時建模三條資訊路徑：
+1.語意路徑（Semantic）：利用 Gemini 生成影片語意摘要與主題標籤，並透過 OpenAI text-embedding-3-small 模型轉換為語意向量，強化語意層級的檢索能力；
+2.內容路徑（Content）：採用 ImageBind 將文本、視覺與聲音對齊至共享特徵空間，獲取多模態內容表示；
+3.互動路徑（Interaction）：結合 LightGCN 捕捉長期結構性偏好，並整合序列模型 SASRec 吸收短期情境偏好，兼顧圖式擴散效應與近期序列動態。
 
 ## 主要用途
 
